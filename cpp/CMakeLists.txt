@@ -161,7 +161,7 @@ Pass multiple labels by dividing with semicolons")
 
   option(ARROW_HDFS
     "Build the Arrow HDFS bridge"
-    ON)
+    OFF)
 
   option(ARROW_BOOST_USE_SHARED
     "Rely on boost shared libraries where relevant"
